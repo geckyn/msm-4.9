@@ -179,3 +179,8 @@ obj-$(CONFIG_ESOC)              += esoc/
 obj-$(CONFIG_FPGA)		+= fpga/
 obj-$(CONFIG_SENSORS_SSC)		+= sensors/
 obj-$(CONFIG_TEE)		+= tee/
+# Samsung lcd common driver
+obj-$(CONFIG_FB_MSM_MDSS_SAMSUNG) += video/msm/mdss/samsung/
+ifeq ($(CONFIG_FB_MSM_MDSS_SAMSUNG),y)
+	LINUXINCLUDE	+=  -I$(srctree)/drivers/video/msm/mdss/samsung/
+endif
