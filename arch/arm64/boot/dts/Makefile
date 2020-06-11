@@ -12,7 +12,9 @@ dts-dirs += hisilicon
 dts-dirs += marvell
 dts-dirs += mediatek
 dts-dirs += nvidia
-dts-dirs += qcom
+# FIXME: ignore all qcom dts files
+#dts-dirs += qcom
+dts-dirs += samsung
 dts-dirs += renesas
 dts-dirs += rockchip
 dts-dirs += socionext

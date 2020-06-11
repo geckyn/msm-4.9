@@ -158,7 +158,14 @@ zinstall install:
 PHONY += dtbs dtbs_install
 
 dtbs: prepare scripts
-	$(Q)$(MAKE) $(build)=$(boot)/dts
+#	$(Q)$(MAKE) $(build)=$(boot)/dts
+# MSM8917
+ifeq ($(CONFIG_ARCH_MSM8917),y)
+	$(Q)$(MAKE) $(build)=$(boot)/dts/samsung/msm8917
+# MSM8937
+else
+	$(Q)$(MAKE) $(build)=$(boot)/dts/qcom
+endif
 
 dtbs_install:
 	$(Q)$(MAKE) $(dtbinst)=$(boot)/dts
