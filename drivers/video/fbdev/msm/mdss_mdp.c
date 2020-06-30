@@ -59,7 +59,7 @@
 #include "mdss_mdp_trace.h"
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h"
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h"
 #endif
 
 #define AXI_HALT_TIMEOUT_US	0x4000

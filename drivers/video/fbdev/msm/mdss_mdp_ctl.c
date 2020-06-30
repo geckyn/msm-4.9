@@ -28,7 +28,7 @@
 #include "mdss_mdp_trace.h"
 #include "mdss_debug.h"
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
 #endif
 
 #define MDSS_MDP_QSEED3_VER_DOWNSCALE_LIM 2

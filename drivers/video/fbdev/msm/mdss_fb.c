@@ -61,7 +61,7 @@
 #endif
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
 #endif
 
 #ifndef EXPORT_COMPAT

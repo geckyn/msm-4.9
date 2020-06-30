@@ -30,7 +30,7 @@
 #include <asm/div64.h>
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
 #endif
 
 #include <soc/qcom/event_timer.h>

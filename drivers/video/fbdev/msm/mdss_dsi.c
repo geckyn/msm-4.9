@@ -36,7 +36,7 @@
 #include "mdss_dsi_phy.h"
 #include "mdss_dba_utils.h"
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h"
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h"
 #endif
 
 #define XO_CLK_RATE	19200000

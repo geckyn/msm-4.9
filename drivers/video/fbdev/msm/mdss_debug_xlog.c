@@ -23,7 +23,7 @@
 #include "mdss_debug.h"
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
 DEFINE_MUTEX(XLOG_DUMP_LOCK);
 #endif
 

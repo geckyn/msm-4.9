@@ -24,7 +24,7 @@
 #include <linux/interrupt.h>
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h"
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h"
 #endif
 
 #define MAX_RECOVERY_TRIALS 10

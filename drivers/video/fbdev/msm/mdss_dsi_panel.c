@@ -31,7 +31,7 @@
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
 #include "mdss_debug.h"
-#include "samsung/ss_dsi_panel_common.h"
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h"
 DEFINE_MUTEX(STATUS_CHANGE);
 /* For Hall ic panel reset funtion */
 DEFINE_MUTEX(LP_STOP_MODE_LOCK);

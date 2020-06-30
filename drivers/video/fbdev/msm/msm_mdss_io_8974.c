@@ -23,7 +23,7 @@
 #include "mdss_edp.h"
 #include "mdss_dsi_phy.h"
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h"
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h"
 #endif
 
 #define MDSS_DSI_DSIPHY_REGULATOR_CTRL_0	0x00

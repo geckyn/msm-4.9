@@ -27,7 +27,7 @@
 #include "mdss_mdp_trace.h"
 
 #if defined(CONFIG_FB_MSM_MDSS_SAMSUNG)
-#include "samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
+#include "../../msm/mdss/samsung/ss_dsi_panel_common.h" /* UTIL HEADER */
 static void mdss_mdp_video_pingpong_done(void *arg);
 static int mdss_mdp_video_wait4pingpong(struct mdss_mdp_ctl *ctl, void *arg);
 #endif
