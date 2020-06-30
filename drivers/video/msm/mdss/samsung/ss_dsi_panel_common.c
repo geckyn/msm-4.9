@@ -25,7 +25,7 @@ Copyright (C) 2015, Samsung Electronics. All rights reserved.
  *
 */
 #include "ss_dsi_panel_common.h"
-#include "../mdss_debug.h"
+#include "../../../fbdev/msm/mdss_debug.h"
 
 static void mdss_samsung_event_osc_te_fitting(struct mdss_panel_data *pdata, int event, void *arg);
 static irqreturn_t samsung_te_check_handler(int irq, void *handle);

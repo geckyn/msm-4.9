@@ -56,10 +56,10 @@ Copyright (C) 2012, Samsung Electronics. All rights reserved.
 #include <linux/wakelock.h>
 #include <linux/miscdevice.h>
 
-#include "../mdss.h"
-#include "../mdss_panel.h"
-#include "../mdss_dsi.h"
-#include "../mdss_debug.h"
+#include "../../../fbdev/msm/mdss.h"
+#include "../../../fbdev/msm/mdss_panel.h"
+#include "../../../fbdev/msm/mdss_dsi.h"
+#include "../../../fbdev/msm/mdss_debug.h"
 
 #include "ss_ddi_spi_common.h"
 #include "ss_dpui_common.h"
