@@ -14,6 +14,7 @@
 /dts-v1/;
 
 #include "../../qcom/msm8917.dtsi"
+#include "../../qcom/msm8917-audio.dtsi"
 #include "msm8917-sec-j6primelte-swa-open-r00.dtsi"
 #include "../../../../../../drivers/video/msm/mdss/samsung/S6D7AT0B01_PM6003XB1/dsi_panel_S6D7AT0B01_PM6003XB1_hd_video.dtsi"
 

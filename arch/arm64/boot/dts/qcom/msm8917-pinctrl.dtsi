@@ -1389,67 +1389,67 @@
 			};
 		};
 
-		nfc {
+/*		nfc {
 			nfc_int_active: nfc_int_active {
 				/* active state */
-				mux {
+/*				mux {
 					/* GPIO 17 NFC Read Interrupt */
-					pins = "gpio17";
+/*					pins = "gpio17";
 					function = "gpio";
 				};
 
-				config {
+/*				config {
 					pins = "gpio17";
 					drive-strength = <2>; /* 2 MA */
-					bias-pull-up;
+/*					bias-pull-up;
 				};
 			};
 
 			nfc_int_suspend: nfc_int_suspend {
 				/* sleep state */
-				mux {
+/*				mux {
 					/* GPIO 17 NFC Read Interrupt */
-					pins = "gpio17";
+/*					pins = "gpio17";
 					function = "gpio";
 				};
 
 				config {
 					pins = "gpio17";
 					drive-strength = <2>; /* 2 MA */
-					bias-pull-up;
+/*					bias-pull-up;
 				};
 			};
 
 			nfc_disable_active: nfc_disable_active {
 				/* active state */
-				mux {
+/*				mux {
 					/* 16: NFC ENABLE 130: FW DNLD */
-					pins = "gpio16", "gpio130";
+/*					pins = "gpio16", "gpio130";
 					function = "gpio";
 				};
 
 				config {
 					pins = "gpio16", "gpio130";
 					drive-strength = <2>; /* 2 MA */
-					bias-pull-up;
+/*					bias-pull-up;
 				};
 			};
 
 			nfc_disable_suspend: nfc_disable_suspend {
 				/* sleep state */
-				mux {
+/*				mux {
 					/* 16: NFC ENABLE 130: FW DNLD */
-					pins = "gpio16", "gpio130";
+/*					pins = "gpio16", "gpio130";
 					function = "gpio";
 				};
 
 				config {
 					pins = "gpio16", "gpio130";
 					drive-strength = <2>; /* 2 MA */
-					bias-disable;
+/*					bias-disable;
 				};
 			};
-		};
+		}; */
 
 		tlmm_gpio_key {
 			gpio_key_active: gpio_key_active {
